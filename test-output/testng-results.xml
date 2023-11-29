@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="2" passed="2" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2023-11-25T17:06:11 IST" name="Suite" finished-at="2023-11-25T17:06:20 IST" duration-ms="8943">
+    <groups>
+    </groups>
+    <test started-at="2023-11-25T17:06:11 IST" name="Test" finished-at="2023-11-25T17:06:20 IST" duration-ms="8943">
+      <class name="com.saucedemo.TestScript.LoginTest">
+        <test-method is-config="true" signature="setUpBrowser()[pri:0, instance:com.saucedemo.TestScript.LoginTest@51c668e3]" started-at="2023-11-25T17:06:11 IST" name="setUpBrowser" finished-at="2023-11-25T17:06:15 IST" duration-ms="4366" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpBrowser -->
+        <test-method signature="loginwithValidCredential()[pri:1, instance:com.saucedemo.TestScript.LoginTest@51c668e3]" started-at="2023-11-25T17:06:15 IST" name="loginwithValidCredential" finished-at="2023-11-25T17:06:18 IST" duration-ms="3058" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginwithValidCredential -->
+        <test-method signature="loginWithInvalidUsernameAndInvalidPassword()[pri:2, instance:com.saucedemo.TestScript.LoginTest@51c668e3]" started-at="2023-11-25T17:06:18 IST" name="loginWithInvalidUsernameAndInvalidPassword" finished-at="2023-11-25T17:06:19 IST" duration-ms="950" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginWithInvalidUsernameAndInvalidPassword -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.saucedemo.TestScript.LoginTest@51c668e3]" started-at="2023-11-25T17:06:19 IST" name="tearDown" finished-at="2023-11-25T17:06:20 IST" duration-ms="457" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.saucedemo.TestScript.LoginTest -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
